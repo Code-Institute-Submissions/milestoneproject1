@@ -135,6 +135,17 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 /*-----home page-----*/
 
+.title {
+    padding: 17px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #484848;
+    vertical-align: middle;
+}
+
+/*-----tour dates-----*/
+
 .gig-box {
     border-radius: 0px;
     text-align: center;
@@ -145,27 +156,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
     -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
     -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
     box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
-}
-
-.album-box {
-    border-radius: 0px;
-    text-align: center;
-    padding: 20px 20px 10px;
-    margin: 0px 20px 15px;
-    align-items: center;
-
-    -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
-    -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
-    box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
-}
-
-.title {
-    padding: 17px;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    color: #484848;
-    vertical-align: middle;
 }
 
 .gig-info {
@@ -180,9 +170,56 @@ hr {
     border-top: 2px solid #484848;
 }
 
+/*-----media navbar-----*/
+
+.nav-pills>li>a,
+.nav-pills>li.active>a,
+.nav-pills>li>a:focus,
+.nav-pills>li.active>a:focus{
+    font-size: 20px;
+    color: #484848;
+    background-color: #efa7d2;
+    border-radius: 0px;
+}
+
+.nav.nav-pills.nav-stacked {
+    position: fixed;
+}
+
+.nav-pills>li>a:hover,
+.nav-pills>li.active>a:hover {
+    background-color: #efa7d2;
+    color: #F5F749;
+}
+
+/*-----media-----*/
+
+.media-title {
+    margin-left: 20px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: #484848;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.album-box {
+    border-radius: 0px;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin: 0px 20px 15px;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+}
+
 .album-cover {
     height: 300px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .album-info {
@@ -198,11 +235,27 @@ hr {
     padding: 2px;
     border: 2px solid #403F4C;
     font-family: 'Righteous', cursive;
+    margin: 0 10 10px;
 }
 
-/*-----tour dates-----*/
+.video-box {
+    border-radius: 0px;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin: 0px 20px 15px;
+    align-items: center;
 
-/*-----media-----*/
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+}
+
+.video-info {
+    color: #484848;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
 
 /*-----book us-----*/
 
@@ -234,7 +287,7 @@ hr {
 
 @media only screen and (max-width: 1005px) {
 
-.album-cover {
+    .album-cover {
         height: 250px;
     }
 }
