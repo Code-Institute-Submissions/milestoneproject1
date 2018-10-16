@@ -1,0 +1,261 @@
+/*-----navbar-----*/
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    height: 70px;
+    background-color: #efa7d2;
+    border: none;
+}
+
+#headerlogo {
+    height: 70px;
+    margin-left: 10px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+#headerlogo:hover {
+    -webkit-filter: brightness(150%)
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: transparent;
+}
+
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 0px 15px;
+    background-color: transparent;
+}
+
+.navbar-menu-items {
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-decoration: none;
+    color: #403F4C;
+    background-color: transparent;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #F5F749;
+    background-color: transparent;
+}
+
+
+/*-dropdown-*/
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+    background-color: transparent;
+}
+
+/*-----footer-----*/
+
+.footer {
+
+    background-color: #F5F749;
+    height: 36px;
+    padding-top: 4px;
+    color: #403F4C;
+    font-family: 'Righteous', cursive;
+    bottom: 0;
+}
+
+.footer p {
+    font-size: 18px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.social-media-items {
+    font-size: 28px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.social-media-icons: {
+    color: #403F4C;
+
+}
+
+.social-media-icons:hover {
+    color: #efa7d2;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+/*-----backgrounds-----*/
+
+.callout-container {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    position: relative;
+}
+
+.background {
+    height: 75%;
+
+    background: url(/assets/home-pic-2.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-2 {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.background-other-pages {
+    height: 35%;
+
+    background: url(/assets/home-pic-2.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*-----home page-----*/
+
+.gig-box {
+    border-radius: 0px;
+    text-align: center;
+    padding: 25px 10px 40px;
+    margin: 0px 20px 15px;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+}
+
+.album-box {
+    border-radius: 0px;
+    text-align: center;
+    padding: 20px 20px 10px;
+    margin: 0px 20px 15px;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 6px 2px rgba(224, 224, 224, 1);
+}
+
+.title {
+    padding: 17px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #484848;
+    vertical-align: middle;
+}
+
+.gig-info {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #484848;
+    line-height: 1;
+}
+
+hr {
+    width: 35%;
+    border-top: 2px solid #484848;
+}
+
+.album-cover {
+    height: 300px;
+    margin: 10px;
+}
+
+.album-info {
+    color: #484848;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+}
+
+.new-tag {
+    position: absolute;
+    background-color: #efa7d2;
+    color: #403F4C;
+    padding: 2px;
+    border: 2px solid #403F4C;
+    font-family: 'Righteous', cursive;
+}
+
+/*-----tour dates-----*/
+
+/*-----media-----*/
+
+/*-----book us-----*/
+
+/*-----media queries-----*/
+
+/*-----buttons-----*/
+
+/*-hamburger-*/
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    padding: 19px 19px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #403F4C;
+}
+
+
+/*-----media queries-----*/
+
+@media only screen and (max-width: 1005px) {
+
+.album-cover {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background-color: #F5F749;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #D9200D;
+        background-color: transparent;
+    }
+
+    .album-cover {
+        height: 200px;
+    }
+
+}
+
+
+
+/*-----misc-----*/
