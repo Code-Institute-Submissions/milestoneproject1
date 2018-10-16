@@ -66,30 +66,27 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .footer {
 
     background-color: #F5F749;
-    height: 36px;
-    padding-top: 4px;
-    color: #403F4C;
-    font-family: 'Righteous', cursive;
+    height: 30px;
     bottom: 0;
 }
 
-.footer p {
-    font-size: 18px;
-    padding-top: 2px;
-    text-align: center;
+.social-media {
+    margin-top: 2px;
+    margin-right: 5px;
+    color: #484848;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: right;
 }
 
-.social-media-items {
-    font-size: 28px;
-    height: 36px;
-    vertical-align: middle;
-    text-align: left;
-    margin-right: 10px;
+.follow-us {
+    color: #484848;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
 }
 
 .social-media-icons: {
     color: #403F4C;
-
 }
 
 .social-media-icons:hover {
@@ -136,7 +133,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 /*-----home page-----*/
 
 .title {
-    padding: 17px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -170,28 +167,6 @@ hr {
     border-top: 2px solid #484848;
 }
 
-/*-----media navbar-----*/
-
-.nav-pills>li>a,
-.nav-pills>li.active>a,
-.nav-pills>li>a:focus,
-.nav-pills>li.active>a:focus{
-    font-size: 20px;
-    color: #484848;
-    background-color: #efa7d2;
-    border-radius: 0px;
-}
-
-.nav.nav-pills.nav-stacked {
-    position: relative;
-}
-
-.nav-pills>li>a:hover,
-.nav-pills>li.active>a:hover {
-    background-color: #efa7d2;
-    color: #F5F749;
-}
-
 /*-----media-----*/
 
 .media-title {
@@ -201,7 +176,6 @@ hr {
     text-align: left;
     font-family: 'Righteous', cursive;
     color: #484848;
-    text-decoration: underline;
     vertical-align: middle;
 }
 
@@ -258,21 +232,33 @@ hr {
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	margin: 0 15px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    margin: 0 15px;
+    height: 0;
 }
+
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*-----book us-----*/
+
+.bookings-blurb {
+    color: #484848;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+.bookings-input {
+    font-family: 'PT Sans', sans-serif;
+}
 
 /*-----media queries-----*/
 
