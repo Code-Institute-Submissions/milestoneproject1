@@ -125,12 +125,43 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .background-2 {
     background-color: #ffffff;
     padding: 0;
+    min-height: calc(100vh - 100px - 35%)
 }
 
-.background-other-pages {
-    height: 35%;
+.background-tourdates-page {
+    height: 50%
 
-    background: url(/assets/home-pic-2.jpg) no-repeat top center fixed;
+    background: url(/assets/crowd.jpg) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-media-page {
+    height: 50%;
+
+    background: url(/assets/drums.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-gallery-page {
+    height: 50%;
+
+    background: url(/assets/guitar.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-bookus-page {
+    height: 50%;
+
+    background: url(/assets/microphone.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -175,6 +206,11 @@ hr {
 }
 
 /*-----media-----*/
+
+audio {
+    width: -webkit-fill-available;
+    max-width: 300px;
+}
 
 .media-title {
     margin-left: 20px;
@@ -275,16 +311,9 @@ hr {
     cursor: pointer;
 }
 
-.btn,
-.btn:focus {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    outline: none;
-}
-
 .englarged-img {
-    margin: 25px;
+    padding: 15px;
+    width: calc(100% - 10%);
 }
 
 .modal-content {
@@ -298,6 +327,7 @@ hr {
     color: #484848;
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .bookings-input {

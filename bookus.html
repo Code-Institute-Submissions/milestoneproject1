@@ -39,7 +39,7 @@
     <!--Navbar End-->
 
     <!--Main-->
-    <div class="container-fluid background-other-pages">
+    <div class="container-fluid background-bookus-page">
     </div>
     <div class="background-2 container-fluid">
         <div class="row">
@@ -47,21 +47,37 @@
                 <h1 class="title">Book us!</h1>
                 <p class="bookings-blurb">We are always performing at events all over the UK, so if you would like to book us for an event, please get in contact by filling the form below!</p>
                 <form>
+                    <label for="InputName" class="bookings-input">Name</label>
                     <div class="form-group">
-                        <input type="text" class="form-control bookings-input" id="exampleInputName2" placeholder="Name">
+                        <input type="text" class="form-control bookings-input" id="InputName">
                     </div>
+                    <label for="InputEmail" class="bookings-input">Email address</label>
                     <div class="form-group">
-                        <input type="email" class="form-control bookings-input" id="exampleInputEmail1" placeholder="Email Address">
+                        <input type="email" class="form-control bookings-input" id="InputEmail">
                     </div>
+                    <label for="InputDate" class="bookings-input">Event Date</label>
                     <div class="form-group">
-                        <textarea class="form-control bookings-input" rows="5" placeholder="Tell us about your event here..."></textarea>
+                        <input type="date" class="form-control bookings-input" id="InputDate">
+                    </div>
+                    <label for="exampleInputEmail1" class="bookings-input">Event Type</label>
+                    <select class="form-control bookings-input">
+                        <option></option>
+                        <option>Wedding</option>
+                        <option>Birthday Party</option>
+                        <option>Business Event</option>
+                        <option>Concert</option>
+                        <option>Festival</option>
+                    </select>
+                    <label class="bookings-input">Tell us about your event here...</label>
+                    <div class="form-group">
+                        <textarea class="form-control bookings-input" rows="5"></textarea>
                     </div>
                     <div class="checkbox">
                         <label class="bookings-input">
                             <input type="checkbox"> Do you want to be kept up to date with the latest news?
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-default bookings-input">Submit</button>
+                    <button class="btn btn-default" type="submit">Submit</button>
                 </form>
             </div>
         </div>
@@ -74,10 +90,10 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="social-media">
-                    <span class="follow-us">Follow us : </span>
-                    <i class="fab fa-facebook-square social-media-icons"></i>
-                    <i class="fab fa-twitter-square social-media-icons"></i>
-                    <i class="fab fa-instagram social-media-icons"></i>
+                        <span class="follow-us">Follow us : </span>
+                        <i class="fab fa-facebook-square social-media-icons"></i>
+                        <i class="fab fa-twitter-square social-media-icons"></i>
+                        <i class="fab fa-instagram social-media-icons"></i>
                     </div>
                 </div>
             </div>
