@@ -129,7 +129,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .background-tourdates-page {
-    height: 50%
+    height: 50%;
 
     background: url(/assets/crowd.jpg) no-repeat center bottom fixed;
     -webkit-background-size: cover;
@@ -332,6 +332,22 @@ audio {
 
 .bookings-input {
     font-family: 'PT Sans', sans-serif;
+}
+
+.btn-default {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.btn-default:hover {
+    background-color: #fff;
+}
+
+.btn-default:focus {
+    background-color: #efa7d2;
+    outline: none;
+    box-shadow: none;
+}
+
 }
 
 /*-----media queries-----*/
