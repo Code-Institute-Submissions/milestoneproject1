@@ -117,12 +117,25 @@ I also had trouble with the background image staying static whilst the content b
 over it. It would either scroll along with the content, or disappear entirely. Similar to the
 method with the navigation bar, I simply had to delete my code on the background, and input it
 again, which resolved the issue.
+
+Finally, there was an issue with a white vertical space to the right of the page.
+Research shows it is a common problem with Bootstrap, as it is accounting for a vertical
+scroll bar. To remedy this, I included a CSS rule to set the left and right margins to 0.
+
  
  
  
 Deployment
 
-*******
+To deploy the project, I simply published the files on GitHub.
+
+I went to the settings section and changed the GitHub Pages source to 'master branch'.
+This effectively published the webpage, and with a small amount of trouble shooting later,
+I was able to consider the project completed.
+
+Here is a link to the published website:
+
+https://edshackleton.github.io/milestoneproject1/index.html.
 
 
 

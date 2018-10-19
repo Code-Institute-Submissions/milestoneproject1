@@ -294,6 +294,7 @@ audio {
 /*-----gallery-----*/
 
 .picture-box {
+    display: flex;
     height: 200px;
     border-radius: 0px;
     text-align: center;
@@ -307,13 +308,19 @@ audio {
 }
 
 .gallery-img {
-    width: 180px;
+    max-width: 100%;
+    max-height: 100%;
     cursor: pointer;
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 3px 2px rgba(224, 224, 224, 1);
 }
 
 .englarged-img {
     padding: 15px;
-    width: calc(100% - 10%);
+    width: calc(90%);
 }
 
 .modal-content {
@@ -328,6 +335,7 @@ audio {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .bookings-input {
@@ -356,20 +364,28 @@ audio {
 
 /*-hamburger-*/
 
+.navbar-toggle.collapsed {
+  border-color: transparent;
+    padding: 19px 19px;  
+}
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
     padding: 19px 19px;
 }
 
 .navbar-default .navbar-toggle:hover {
+    border-color: transparent;
     background-color: transparent;
 }
 
 .navbar-default .navbar-toggle:focus {
+    border-color: transparent;
     background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
+    border-color: transparent;
     background-color: #403F4C;
 }
 
@@ -403,3 +419,8 @@ audio {
 
 
 /*-----misc-----*/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
