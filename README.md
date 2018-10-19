@@ -147,7 +147,10 @@ www.pxhere.com/
 Acknowledgements
 
 I took inspiration for the general structure from the website for Pixies - http://www.pixiesmusic.com/
+
 I looked at the website for Idles, which inspired the light and clean aesthetic - https://www.idlesband.com/
+
 The Abba website then helped me to further understand what a fan of music from that era
 would like to see on a band website. This inspired me to add a gallery page - https://abbasite.com
+
 Finally, the Beegees website helped inform me on both the style as well as the content - http://www.beegees.com/
